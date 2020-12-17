@@ -1,0 +1,88 @@
+.box {
+    height: 150px;
+    /* width: 150px; */
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.box2 {
+    height: 150px;
+    /* width: 150px; */
+    background-color: red;
+    margin: 10px;
+}
+.box {
+    height: 150px;
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 10px;
+}
+img{
+    height: 50px;
+}
+.box4 {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 10px;
+}
+.flex {
+    height: 1000px;
+    background-color: rosybrown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    /* ჰორიზონტალური მდებარეობა */
+    align-items: center;
+    /* ვერტიკალური მდებაროება */
+    /* flex-direction: column-reverse; */
+}
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+.box:first-child {
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+}
+/* .box {
+    flex-grow: 4;
+} */
+
+.bg {
+    background-image: url(./bg.jpg);
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    position: relative;
+}
+.text {
+    color: #fff;
+    font-size: 40px;
+    /* margin: 0 50px 50px 0; */
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+*{
+    margin: 0;
+}
